@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-recruitment-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "export NODE_ENV=heroku && nodemon app.js",
+    "server": "export NODE_ENV=developement && nodemon app.js",
+    "server-test": "export NODE_ENV=test && nodemon app.js",
+    "test": "mocha tests/*.test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.2",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "expect": "^23.1.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  }
+}
