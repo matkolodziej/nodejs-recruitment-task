@@ -25,4 +25,4 @@ For testing run `npm run server-test` and then in separate terminal `npm run tes
 
 Here is a link to a Postman simple postman collection for testing [Postman Collection](https://www.getpostman.com/collections/8f81cc238d0ba25ddf37)
 
-## That
+## Heroku
