@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "export NODE_ENV=production && nodemon app.js",
+    "start": "export NODE_ENV=production && node app.js",
     "server": "export NODE_ENV=developement && nodemon app.js",
     "server-test": "export NODE_ENV=test && nodemon app.js",
     "test": "mocha tests/*.test.js"
